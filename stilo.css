@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100;
+    background: linear-gradient(to top right, #801271, #DFC8EA);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #660066
+}
+.cabecalho-imagem{
+    margin-left: 20px;
+}
+.cabecalho-menu {
+      padding: 20px;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      
+}
+.cabecalho-menu-item {
+    gap: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    color: #ebebeb;
+    font-weight: bold;
+
+}
+.cabecalho-logo-letra{
+    height: 25px;
+    margin-left: 20px;
+}
+div{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+ 
+    
+}
+.texto-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    padding: 24px;
+    margin:30px;
+    color: #660066;
+}
+h1{
+    font-size: 70px;
+    font-family: cursive;
+}
+h2{
+    font-size: 30px;
+    margin: 50px;
+    
+}
+h3{
+    font-size: 20px;
+}
+.banner-principal-masculino{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 30px;
+     }
+.texto-principal-masculino{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    padding: 24px;
+    margin:40px;
+    color: #660066;
+}
+.banner-baixo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.texto-baixo{
+  margin: auto;    
+  text-align: center;
+  color: #660066;
+   
+}
+footer{
+    background-color: #660066;
+    font-style: italic;
+    height: 90px;
+ 
+}
+.rodape-imagem{
+    margin: 20px;
+}
+p{
+    margin-left: 20px;
+    color: #ebebeb;
+}
